@@ -1,5 +1,5 @@
 Since few constraints were not clear few assumption was made.
-It was not clear while add the employee whether id will be provided by user or auto generated.
+It was not clear while adding the employee whether id will be provided by user or auto generated.
 Since json schema definition for employee did not have id as required field. It was assumed that id will be auto generated.
 
 `http://localhost:8080/v1/bfs/employees/' POST end point is used for adding employee info along with this sample JSON object.
